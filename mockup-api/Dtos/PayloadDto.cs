@@ -10,6 +10,7 @@ namespace mockup_api.Dtos
         [JsonPropertyName("timestamp")]
         public required int Timestamp { get; set; }
 
+        [JsonPropertyName("data")]
         public required List<DataDto> Data { get; set; }
     }
 }
